@@ -1,0 +1,771 @@
+{
+    "content": [
+        {
+            "meta": {
+                "id": "0f9a837f-0a50-4f79-a59c-ac6f033bb06a",
+                "creationDate": "2020-06-16T10:39:52.557Z",
+                "updateDate": "2020-06-17T22:09:59.957Z",
+                "rubric": "HR",
+                "subRubric": "HR02",
+                "language": "de",
+                "registrationOffice": {
+                    "id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+                    "displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+                    "street": "Bundesrain",
+                    "streetNumber": "20",
+                    "swissZipCode": "3003",
+                    "town": "Bern",
+                    "containsPostOfficeBox": false,
+                    "postOfficeBox": null
+                },
+                "publicationOriginator": null,
+                "publicationNumber": "HR02-1004913686",
+                "publicationState": "PUBLISHED",
+                "publicationDate": "2020-06-18T00:00:00.000Z",
+                "expirationDate": null,
+                "primaryTenantCode": "shab",
+                "onBehalfOf": null,
+                "invoiceAddressId": null,
+                "legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+                "cantons": ["ZG"],
+                "secondaryTenants": null,
+                "repeatedPublications": null,
+                "customsStampImages": [],
+                "title": {
+                    "de": "Mutation Chief Digital Community, Risch, neu Digital Community",
+                    "en": "Change Chief Digital Community, Risch, new Digital Community",
+                    "it": "Cambiamenti Chief Digital Community, Risch, nuovo Digital Community",
+                    "fr": "Mutation Chief Digital Community, Risch, nouveau Digital Community"
+                },
+                "dossierReference": null,
+                "copyDeadline": null
+            },
+            "links": [],
+            "attachments": [],
+            "content": {
+                "testImport": false,
+                "commonsActual": {
+                    "company": {
+                        "name": "Chief Digital Community",
+                        "uid": "CHE-299.063.418",
+                        "uidOrganisationId": "299063418",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17060003501",
+                        "seat": "Risch",
+                        "legalForm": "0109",
+                        "noAddress": false,
+                        "address": {
+                            "addressLine1": "c/o Hochschule Luzern - Informatik",
+                            "street": "Suurstoffi",
+                            "houseNumber": "1",
+                            "swissZipCode": "6343",
+                            "town": "Rotkreuz"
+                        }
+                    },
+                    "purpose": "Unterstützung von Schweizer KMU bei der professionellen Umsetzung der digitalen Transformation; vollständige Zweckumschreibung gemäss Statuten",
+                    "revision": {
+                        "optingOut": false
+                    }
+                },
+                "lastFosc": {
+                    "lastFoscDate": "2019-08-26T00:00:00.000Z",
+                    "lastFoscNumber": 163,
+                    "lastFoscSequence": "1004702305"
+                },
+                "publicationText": "Chief Digital Community, in Risch, CHE-299.063.418, Verein (SHAB Nr. 163 vom 26.08.2019, Publ. 1004702305). Statutenänderung: 16.12.2019. Name neu: Digital Community. Zweck neu: Schaffung eines gemeinsamen Raums für die Unterstützung von Schweizer KMUs bei der professionellen Umsetzung der digitalen Transformation; vollständige Zweckumschreibung gemäss Statuten. [Ferner Änderung nicht publikationspflichtiger Tatsachen]. Ausgeschiedene Personen und erloschene Unterschriften: Zenhäusern, Martin, von Unterbäch, in Rapperswil-Jona, Präsident des Vorstandes, mit Einzelunterschrift; Imoberdorf, Roland, von Hausen am Albis, in Hausen am Albis, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Mazumder, Sita, von Zürich, in Herrliberg, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Meier, Thomas, von Steinhausen, in Zug, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Müller, Daniel, von Romoos, in Luzern, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Weder, Daniel, von Diepoldsau, in Nürensdorf, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Wolke, André, deutscher Staatsangehöriger, in Winterthur, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien. Eingetragene Personen neu oder mutierend: Altherr, Marcel, von Trogen, in Adliswil, Präsident des Vorstandes, mit Einzelunterschrift; Mohr, Sereina, von Zernez, in Mettmenstetten, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien.",
+                "root": {
+                    "patterns": {
+                        "title": {
+                            "de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+                        },
+                        "uid": {
+                            "uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+                        },
+                        "municipalities": {
+                            "municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+                            "municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+                        }
+                    }
+                },
+                "journalNumber": "7852",
+                "journalDate": "2020-06-15T00:00:00.000Z",
+                "senderOffice": {
+                    "officeName": "Handelsregister- und Konkursamt des Kantons Zug"
+                },
+                "transaction": {
+                    "update": {
+                        "changements": {
+                            "others": false,
+                            "nameChanged": true,
+                            "uidChanged": false,
+                            "legalStatusChanged": false,
+                            "seatChanged": false,
+                            "addressChanged": false,
+                            "purposeChanged": true,
+                            "capitalChanged": {
+                                "nominal": false,
+                                "paid": false,
+                                "other": false
+                            },
+                            "statusChanged": {
+                                "bankruptcy": {
+                                    "dissolution": false,
+                                    "dismissal": false,
+                                    "revocation": false,
+                                    "cancellation": false,
+                                    "summary": false
+                                },
+                                "liquidation": {
+                                    "dissolution": {
+                                        "nonExceptional": false,
+                                        "or731b": false,
+                                        "hregv153b": false
+                                    },
+                                    "revocation": false
+                                },
+                                "suspension": false,
+                                "reentry": false,
+                                "reapplication": false
+                            }
+                        }
+                    }
+                },
+                "commonsNew": {
+                    "company": {
+                        "name": "Digital Community",
+                        "uid": "CHE-299.063.418",
+                        "uidOrganisationId": "299063418",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17060003501",
+                        "seat": "Risch",
+                        "legalForm": "0109",
+                        "noAddress": false,
+                        "address": {
+                            "addressLine1": "c/o Hochschule Luzern - Informatik",
+                            "street": "Suurstoffi",
+                            "houseNumber": "1",
+                            "swissZipCode": "6343",
+                            "town": "Rotkreuz"
+                        }
+                    },
+                    "purpose": "Schaffung eines gemeinsamen Raums für die Unterstützung von Schweizer KMUs bei der professionellen Umsetzung der digitalen Transformation; vollständige Zweckumschreibung gemäss Statuten",
+                    "revision": {
+                        "optingOut": false
+                    }
+                }
+            },
+            "commented": false
+        },
+        {
+            "meta": {
+                "id": "a72a0985-d46c-45e8-bded-8464754f7f79",
+                "creationDate": "2020-02-07T10:51:02.191Z",
+                "updateDate": "2020-02-10T23:13:15.810Z",
+                "rubric": "HR",
+                "subRubric": "HR02",
+                "language": "de",
+                "registrationOffice": {
+                    "id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+                    "displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+                    "street": "Bundesrain",
+                    "streetNumber": "20",
+                    "swissZipCode": "3003",
+                    "town": "Bern",
+                    "containsPostOfficeBox": false,
+                    "postOfficeBox": null
+                },
+                "publicationOriginator": null,
+                "publicationNumber": "HR02-1004826782",
+                "publicationState": "PUBLISHED",
+                "publicationDate": "2020-02-11T00:00:00.000Z",
+                "expirationDate": null,
+                "primaryTenantCode": "shab",
+                "onBehalfOf": null,
+                "invoiceAddressId": null,
+                "legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+                "cantons": ["ZH"],
+                "secondaryTenants": null,
+                "repeatedPublications": null,
+                "customsStampImages": [],
+                "title": {
+                    "de": "Mutation Mio Decentral AG, Erlenbach (ZH)",
+                    "en": "Change Mio Decentral AG, Erlenbach (ZH)",
+                    "it": "Cambiamenti Mio Decentral AG, Erlenbach (ZH)",
+                    "fr": "Mutation Mio Decentral AG, Erlenbach (ZH)"
+                },
+                "dossierReference": null,
+                "copyDeadline": null
+            },
+            "links": [],
+            "attachments": [],
+            "content": {
+                "testImport": false,
+                "commonsActual": {
+                    "company": {
+                        "name": "Mio Decentral AG",
+                        "uid": "CHE-169.379.508",
+                        "uidOrganisationId": "169379508",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17030423500",
+                        "seat": "Erlenbach (ZH)",
+                        "legalForm": "0106",
+                        "noAddress": false,
+                        "address": {
+                            "street": "Seestrasse",
+                            "houseNumber": "11",
+                            "swissZipCode": "8703",
+                            "town": "Erlenbach ZH"
+                        }
+                    },
+                    "purpose": "Entwicklung, Herstellung, Vertrieb , Handel und Betrieb von IT-Dienstleistungen von Mobilen Applikationen (Apps), sowie digitalen Inhalten aller Art sowie urheberrechtlich geschützten Werken. Tätigkeitsbereich erstreckt sich auf alle direkt und indirekt verbundenen Arten von Beratungs- Handels- und Dienstleistungsgeschäfte im In- und Ausland; vollständige Zweckumschreibung gemäss Statuten",
+                    "capital": [
+                        {
+                            "nominal": 100000.0,
+                            "paid": 100000.0
+                        }
+                    ],
+                    "revision": {
+                        "optingOut": false
+                    }
+                },
+                "lastFosc": {
+                    "lastFoscDate": "2019-12-27T00:00:00.000Z",
+                    "lastFoscNumber": 250,
+                    "lastFoscSequence": "1004793203"
+                },
+                "publicationText": "Mio Decentral AG, in Erlenbach (ZH), CHE-169.379.508, Aktiengesellschaft (SHAB Nr. 250 vom 27.12.2019, Publ. 1004793203). Ausgeschiedene Personen und erloschene Unterschriften: Wolke, André, deutscher Staatsangehöriger, in Winterthur, Mitglied des Verwaltungsrates, mit Kollektivunterschrift zu zweien.",
+                "root": {
+                    "patterns": {
+                        "title": {
+                            "de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+                        },
+                        "uid": {
+                            "uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+                        },
+                        "municipalities": {
+                            "municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+                            "municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+                        }
+                    }
+                },
+                "journalNumber": "5911",
+                "journalDate": "2020-02-06T00:00:00.000Z",
+                "senderOffice": {
+                    "officeName": "Handelsregisteramt des Kantons Zürich"
+                },
+                "transaction": {
+                    "update": {
+                        "changements": {
+                            "others": true,
+                            "nameChanged": false,
+                            "uidChanged": false,
+                            "legalStatusChanged": false,
+                            "seatChanged": false,
+                            "addressChanged": false,
+                            "purposeChanged": false,
+                            "capitalChanged": {
+                                "nominal": false,
+                                "paid": false,
+                                "other": false
+                            },
+                            "statusChanged": {
+                                "bankruptcy": {
+                                    "dissolution": false,
+                                    "dismissal": false,
+                                    "revocation": false,
+                                    "cancellation": false,
+                                    "summary": false
+                                },
+                                "liquidation": {
+                                    "dissolution": {
+                                        "nonExceptional": false,
+                                        "or731b": false,
+                                        "hregv153b": false
+                                    },
+                                    "revocation": false
+                                },
+                                "suspension": false,
+                                "reentry": false,
+                                "reapplication": false
+                            }
+                        }
+                    }
+                },
+                "commonsNew": {
+                    "company": {
+                        "name": "Mio Decentral AG",
+                        "uid": "CHE-169.379.508",
+                        "uidOrganisationId": "169379508",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17030423500",
+                        "seat": "Erlenbach (ZH)",
+                        "legalForm": "0106",
+                        "noAddress": false,
+                        "address": {
+                            "street": "Seestrasse",
+                            "houseNumber": "11",
+                            "swissZipCode": "8703",
+                            "town": "Erlenbach ZH"
+                        }
+                    },
+                    "purpose": "Entwicklung, Herstellung, Vertrieb , Handel und Betrieb von IT-Dienstleistungen von Mobilen Applikationen (Apps), sowie digitalen Inhalten aller Art sowie urheberrechtlich geschützten Werken. Tätigkeitsbereich erstreckt sich auf alle direkt und indirekt verbundenen Arten von Beratungs- Handels- und Dienstleistungsgeschäfte im In- und Ausland; vollständige Zweckumschreibung gemäss Statuten",
+                    "capital": [
+                        {
+                            "nominal": 100000.0,
+                            "paid": 100000.0
+                        }
+                    ],
+                    "revision": {
+                        "optingOut": false
+                    }
+                }
+            },
+            "commented": false
+        },
+        {
+            "meta": {
+                "id": "f21d8a17-c92f-437c-a209-4dd9cc5984f8",
+                "creationDate": "2020-01-29T12:01:48.573Z",
+                "updateDate": "2020-01-30T23:15:05.034Z",
+                "rubric": "HR",
+                "subRubric": "HR02",
+                "language": "de",
+                "registrationOffice": {
+                    "id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+                    "displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+                    "street": "Bundesrain",
+                    "streetNumber": "20",
+                    "swissZipCode": "3003",
+                    "town": "Bern",
+                    "containsPostOfficeBox": false,
+                    "postOfficeBox": null
+                },
+                "publicationOriginator": null,
+                "publicationNumber": "HR02-1004818983",
+                "publicationState": "PUBLISHED",
+                "publicationDate": "2020-01-31T00:00:00.000Z",
+                "expirationDate": null,
+                "primaryTenantCode": "shab",
+                "onBehalfOf": null,
+                "invoiceAddressId": null,
+                "legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+                "cantons": ["ZH"],
+                "secondaryTenants": null,
+                "repeatedPublications": null,
+                "customsStampImages": [],
+                "title": {
+                    "de": "Mutation Validity Labs AG, Zürich",
+                    "en": "Change Validity Labs AG, Zürich",
+                    "it": "Cambiamenti Validity Labs AG, Zürich",
+                    "fr": "Mutation Validity Labs AG, Zürich"
+                },
+                "dossierReference": null,
+                "copyDeadline": null
+            },
+            "links": [],
+            "attachments": [],
+            "content": {
+                "testImport": false,
+                "commonsActual": {
+                    "company": {
+                        "name": "Validity Labs AG",
+                        "uid": "CHE-282.277.968",
+                        "uidOrganisationId": "282277968",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17030406375",
+                        "seat": "Zürich",
+                        "legalForm": "0106",
+                        "noAddress": false,
+                        "address": {
+                            "street": "Technoparkstrasse",
+                            "houseNumber": "1",
+                            "swissZipCode": "8005",
+                            "town": "Zürich"
+                        }
+                    },
+                    "purpose": "Erbringung von Dienstleistungen aller Art auf dem Gebiet der Aus- und Weiterbildung, insbesondere im Bereich Informationstechnologie sowie Managementberatung, Entwicklung, Lizenzierung, Wartung von Vertrieb von Software sowie damit in Zusammenhang stehende Service-Dienstleistungen; vollständige Zweckumschreibung gemäss Statuten",
+                    "capital": [
+                        {
+                            "nominal": 100000.2,
+                            "paid": 100000.2
+                        }
+                    ],
+                    "revision": {
+                        "optingOut": false
+                    }
+                },
+                "lastFosc": {
+                    "lastFoscDate": "2019-12-10T00:00:00.000Z",
+                    "lastFoscNumber": 239,
+                    "lastFoscSequence": "1004778960"
+                },
+                "publicationText": "Validity Labs AG, in Zürich, CHE-282.277.968, Aktiengesellschaft (SHAB Nr. 239 vom 10.12.2019, Publ. 1004778960). Eingetragene Personen neu oder mutierend: Wolke, André, deutscher Staatsangehöriger, in Affoltern am Albis, Mitglied des Verwaltungsrates, mit Einzelunterschrift [bisher: Präsident des Verwaltungsrates, mit Einzelunterschrift].",
+                "root": {
+                    "patterns": {
+                        "title": {
+                            "de": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', neu ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "fr": "Mutation {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nouveau ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "it": "Cambiamenti {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', nuovo ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}",
+                            "en": "Change {root.content.commonsActual.company.name}, {root.content.commonsActual.company.seat}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name || root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', new ':''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?root.content.commonsNew.company.name:''}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name && root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', ':''}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?root.content.commonsNew.company.seat:''}"
+                        },
+                        "uid": {
+                            "uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+                        },
+                        "municipalities": {
+                            "municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+                            "municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+                        }
+                    }
+                },
+                "journalNumber": "4508",
+                "journalDate": "2020-01-28T00:00:00.000Z",
+                "senderOffice": {
+                    "officeName": "Handelsregisteramt des Kantons Zürich"
+                },
+                "transaction": {
+                    "update": {
+                        "changements": {
+                            "others": true,
+                            "nameChanged": false,
+                            "uidChanged": false,
+                            "legalStatusChanged": false,
+                            "seatChanged": false,
+                            "addressChanged": false,
+                            "purposeChanged": false,
+                            "capitalChanged": {
+                                "nominal": false,
+                                "paid": false,
+                                "other": false
+                            },
+                            "statusChanged": {
+                                "bankruptcy": {
+                                    "dissolution": false,
+                                    "dismissal": false,
+                                    "revocation": false,
+                                    "cancellation": false,
+                                    "summary": false
+                                },
+                                "liquidation": {
+                                    "dissolution": {
+                                        "nonExceptional": false,
+                                        "or731b": false,
+                                        "hregv153b": false
+                                    },
+                                    "revocation": false
+                                },
+                                "suspension": false,
+                                "reentry": false,
+                                "reapplication": false
+                            }
+                        }
+                    }
+                },
+                "commonsNew": {
+                    "company": {
+                        "name": "Validity Labs AG",
+                        "uid": "CHE-282.277.968",
+                        "uidOrganisationId": "282277968",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17030406375",
+                        "seat": "Zürich",
+                        "legalForm": "0106",
+                        "noAddress": false,
+                        "address": {
+                            "street": "Technoparkstrasse",
+                            "houseNumber": "1",
+                            "swissZipCode": "8005",
+                            "town": "Zürich"
+                        }
+                    },
+                    "purpose": "Erbringung von Dienstleistungen aller Art auf dem Gebiet der Aus- und Weiterbildung, insbesondere im Bereich Informationstechnologie sowie Managementberatung, Entwicklung, Lizenzierung, Wartung von Vertrieb von Software sowie damit in Zusammenhang stehende Service-Dienstleistungen; vollständige Zweckumschreibung gemäss Statuten",
+                    "capital": [
+                        {
+                            "nominal": 100000.2,
+                            "paid": 100000.2
+                        }
+                    ],
+                    "revision": {
+                        "optingOut": false
+                    }
+                }
+            },
+            "commented": false
+        },
+        {
+            "meta": {
+                "id": "e06f5076-699b-4945-b5c2-8bdb1989f2f1",
+                "creationDate": "2018-12-24T08:42:05.529Z",
+                "updateDate": "2019-01-02T17:46:08.299Z",
+                "rubric": "HR",
+                "subRubric": "HR02",
+                "language": "de",
+                "registrationOffice": {
+                    "id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+                    "displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+                    "street": "Bundesrain",
+                    "streetNumber": "20",
+                    "swissZipCode": "3003",
+                    "town": "Bern",
+                    "containsPostOfficeBox": false,
+                    "postOfficeBox": null
+                },
+                "publicationOriginator": null,
+                "publicationNumber": "HR02-1004532216",
+                "publicationState": "PUBLISHED",
+                "publicationDate": "2018-12-28T00:00:00.000Z",
+                "expirationDate": null,
+                "primaryTenantCode": "shab",
+                "onBehalfOf": null,
+                "invoiceAddressId": null,
+                "legalRemedy": "Die Mutation der aufgeführten Rechtseinheit wurde im Handelsregister vorgenommen. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+                "cantons": ["ZG"],
+                "secondaryTenants": null,
+                "repeatedPublications": null,
+                "customsStampImages": [],
+                "title": {
+                    "de": "Mutation Swiss Cryptotech GmbH, Zug",
+                    "en": "Change Swiss Cryptotech GmbH, Zug",
+                    "it": "Cambiamenti Swiss Cryptotech GmbH, Zug",
+                    "fr": "Mutation Swiss Cryptotech GmbH, Zug"
+                },
+                "dossierReference": null,
+                "copyDeadline": null
+            },
+            "links": [],
+            "attachments": [],
+            "content": {
+                "testImport": false,
+                "commonsActual": {
+                    "company": {
+                        "name": "Swiss Cryptotech GmbH",
+                        "uid": "CHE374492577",
+                        "uidOrganisationId": "374492577",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH10047981473",
+                        "seat": "Zug",
+                        "legalForm": "0107",
+                        "noAddress": false,
+                        "address": {
+                            "street": "Gotthardstrasse",
+                            "houseNumber": "26",
+                            "swissZipCode": "6300",
+                            "town": "Zug"
+                        }
+                    },
+                    "purpose": "Herstellung, Entwicklung und weltweiter Vertrieb von computergestützten Technologieprogrammen, Dienstleistungen und Anwendungen; Entwicklung und Verkauf von Produkten respektive Erbringung von Dienstleistungen für den Internetgebrauch, insbesondere im Bereich des virtuellen Gelds (Kryptowährungen), der Internetprogramme und -anwendungen; Erwerb, Verwaltung und Übertragung von Patenten, Handelsmarken und technischen und industriellen Kenntnissen; Beteiligungen; Erwerb, Belastung, Veräusserung und Verwaltung von Grundeigentum",
+                    "capital": [
+                        {
+                            "nominal": 21000.0,
+                            "paid": 21000.0
+                        }
+                    ],
+                    "revision": {
+                        "optingOut": false
+                    }
+                },
+                "lastFosc": {
+                    "lastFoscDate": "2017-08-31T00:00:00.000Z",
+                    "lastFoscNumber": 168,
+                    "lastFoscSequence": "3725341"
+                },
+                "publicationText": "Swiss Cryptotech GmbH, in Zug, CHE-374.492.577, Gesellschaft mit beschränkter Haftung (SHAB Nr. 168 vom 31.08.2017, Publ. 3725341). Domizil neu: Postplatz 1, 6300 Zug. Ausgeschiedene Personen und erloschene Unterschriften: Grasarevic, Perica, von Zürich, in Zürich, Gesellschafter und Geschäftsführer, mit Einzelunterschrift, mit 15 Stammanteilen zu je CHF 700.00. Eingetragene Personen neu oder mutierend: Wolke, Andre, deutscher Staatsangehöriger, in Winterthur, Gesellschafter und Geschäftsführer, mit Einzelunterschrift, mit 30 Stammanteilen zu je CHF 700.00 [bisher: in Affoltern am Albis, Gesellschafter, mit Einzelunterschrift, Vorsitzender der Geschäftsführung, mit Einzelunterschrift, mit 15 Stammanteilen zu je CHF 700.00].",
+                "root": {
+                    "patterns": {
+                        "title": {
+                            "de": "Mutation {root.content.commonsNew.company.name}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?', bisher ' + root.content.commonsActual.company.name:''}, {root.content.commonsNew.company.seat}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', bisher ' + root.content.commonsActual.company.seat:''}",
+                            "fr": "Mutation {root.content.commonsNew.company.name}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?', jusqu'ici ' + root.content.commonsActual.company.name:''}, {root.content.commonsNew.company.seat}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', jusqu'ici ' + root.content.commonsActual.company.seat:''}",
+                            "it": "Cambiamenti {root.content.commonsNew.company.name}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?', prima ' + root.content.commonsActual.company.name:''}, {root.content.commonsNew.company.seat}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', prima ' + root.content.commonsActual.company.seat:''}",
+                            "en": "Change {root.content.commonsNew.company.name}{root.content.commonsNew.company.name!=root.content.commonsActual.company.name?', to date ' + root.content.commonsActual.company.name:''}, {root.content.commonsNew.company.seat}{root.content.commonsNew.company.seat!=root.content.commonsActual.company.seat?', to date ' + root.content.commonsActual.company.seat:''}"
+                        },
+                        "uid": {
+                            "uid1": "{root.content.commonsActual.company.uidOrganisationId}"
+                        },
+                        "municipalities": {
+                            "municipality1": "{root.content.commonsActual.company.address.swissZipCode}_{root.content.commonsActual.company.address.town}",
+                            "municipality2": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+                        }
+                    }
+                },
+                "journalNumber": "18438",
+                "journalDate": "2018-12-21T00:00:00.000Z",
+                "senderOffice": {
+                    "officeName": "Handelsregister- und Konkursamt des Kantons Zug"
+                },
+                "transaction": {
+                    "update": {
+                        "changements": {
+                            "others": false,
+                            "nameChanged": false,
+                            "uidChanged": false,
+                            "legalStatusChanged": false,
+                            "seatChanged": true,
+                            "addressChanged": true,
+                            "purposeChanged": false,
+                            "capitalChanged": {
+                                "nominal": false,
+                                "paid": false,
+                                "other": false
+                            },
+                            "statusChanged": {
+                                "bankruptcy": {
+                                    "dissolution": false,
+                                    "dismissal": false,
+                                    "revocation": false,
+                                    "cancellation": false,
+                                    "summary": false
+                                },
+                                "liquidation": {
+                                    "dissolution": {
+                                        "nonExceptional": false,
+                                        "or731b": false,
+                                        "hregv153b": false
+                                    },
+                                    "revocation": false
+                                },
+                                "suspension": false,
+                                "reentry": false,
+                                "reapplication": false
+                            }
+                        }
+                    }
+                },
+                "commonsNew": {
+                    "company": {
+                        "name": "Swiss Cryptotech GmbH",
+                        "uid": "CHE374492577",
+                        "uidOrganisationId": "374492577",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH10047981473",
+                        "seat": "Zug",
+                        "legalForm": "0107",
+                        "noAddress": false,
+                        "address": {
+                            "street": "Postplatz",
+                            "houseNumber": "1",
+                            "swissZipCode": "6300",
+                            "town": "Zug"
+                        }
+                    },
+                    "purpose": "Herstellung, Entwicklung und weltweiter Vertrieb von computergestützten Technologieprogrammen, Dienstleistungen und Anwendungen; Entwicklung und Verkauf von Produkten respektive Erbringung von Dienstleistungen für den Internetgebrauch, insbesondere im Bereich des virtuellen Gelds (Kryptowährungen), der Internetprogramme und -anwendungen; Erwerb, Verwaltung und Übertragung von Patenten, Handelsmarken und technischen und industriellen Kenntnissen; Beteiligungen; Erwerb, Belastung, Veräusserung und Verwaltung von Grundeigentum",
+                    "capital": [
+                        {
+                            "nominal": 21000.0,
+                            "paid": 21000.0
+                        }
+                    ],
+                    "revision": {
+                        "optingOut": false
+                    }
+                }
+            },
+            "commented": false
+        },
+        {
+            "meta": {
+                "id": "6f5f9918-a106-4715-ab37-34bb9f46b353",
+                "creationDate": "2018-10-25T10:57:38.066Z",
+                "updateDate": "2018-10-28T23:03:03.093Z",
+                "rubric": "HR",
+                "subRubric": "HR01",
+                "language": "de",
+                "registrationOffice": {
+                    "id": "e15a629a-a08d-11e8-aa11-0050569d3c43",
+                    "displayName": "Bundesamt für Justiz (BJ), Eidgenössisches Amt für das Handelsregister",
+                    "street": "Bundesrain",
+                    "streetNumber": "20",
+                    "swissZipCode": "3003",
+                    "town": "Bern",
+                    "containsPostOfficeBox": false,
+                    "postOfficeBox": null
+                },
+                "publicationOriginator": null,
+                "publicationNumber": "HR01-1004485695",
+                "publicationState": "PUBLISHED",
+                "publicationDate": "2018-10-29T00:00:00.000Z",
+                "expirationDate": null,
+                "primaryTenantCode": "shab",
+                "onBehalfOf": null,
+                "invoiceAddressId": null,
+                "legalRemedy": "Die aufgeführte Rechtseinheit wurde ins Handelsregister aufgenommen und ist rechtsfähig. <br />Publikation nach HRegV Art. 9 und Art. 35.",
+                "cantons": ["ZG"],
+                "secondaryTenants": null,
+                "repeatedPublications": null,
+                "customsStampImages": null,
+                "title": {
+                    "de": "Neueintragung Chief Digital Community, Risch",
+                    "en": "New entries Chief Digital Community, Risch",
+                    "it": "Nuove registrazioni Chief Digital Community, Risch",
+                    "fr": "Nouvelles entrées Chief Digital Community, Risch"
+                },
+                "dossierReference": null,
+                "copyDeadline": null
+            },
+            "links": [],
+            "attachments": [],
+            "content": {
+                "testImport": false,
+                "publicationText": "Chief Digital Community, in Risch, CHE-299.063.418, c/o Hochschule Luzern - Informatik, Suurstoffi 41B, 6343 Rotkreuz, Verein (Neueintragung). Statutendatum: 24.10.2017. Zweck: Unterstützung von Schweizer KMU bei der professionellen Umsetzung der digitalen Transformation; vollständige Zweckumschreibung gemäss Statuten. Mittel: Mitgliederbeiträge, Sponsoring. Eingetragene Personen: Mazumder, Sita, von Zürich, in Herrliberg, Präsidentin des Vorstandes, mit Einzelunterschrift; Sury, Ursula, von Oberwil bei Büren, in Horw, Vizepräsidentin des Vorstandes, mit Einzelunterschrift; Amstutz, Marcel, von Engelberg, in Stansstad, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Erni, Jon, von Scuol, in Thalwil, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Gassmann, Peter, von Schleinikon, in Urdorf, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Imoberdorf, Roland, von Hausen am Albis, in Hausen am Albis, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Meier, Thomas, von Steinhausen, in Zug, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Müller, Daniel, von Romoos, in Luzern, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Schwarz, Filip, von Tägerwilen, in Bottighofen, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Weder, Daniel, von Diepoldsau, in Nürensdorf, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Wolke, André, deutscher Staatsangehöriger, in Winterthur, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien; Zenhäusern, Martin, von Unterbäch, in Rapperswil-Jona, Mitglied des Vorstandes, mit Kollektivunterschrift zu zweien.",
+                "root": {
+                    "patterns": {
+                        "title": {
+                            "de": "Neueintragung {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+                            "fr": "Nouvelles entrées {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+                            "it": "Nuove registrazioni {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}",
+                            "en": "New entries {root.content.commonsNew.company.name}, {root.content.commonsNew.company.seat}"
+                        },
+                        "uid": {
+                            "uid1": "{root.content.commonsNew.company.uidOrganisationId}"
+                        },
+                        "municipalities": {
+                            "municipality1": "{root.content.commonsNew.company.address.swissZipCode}_{root.content.commonsNew.company.address.town}"
+                        }
+                    }
+                },
+                "journalNumber": "15018",
+                "journalDate": "2018-10-24T00:00:00.000Z",
+                "senderOffice": {
+                    "officeName": "Handelsregister- und Konkursamt des Kantons Zug"
+                },
+                "transaction": {
+                    "registration": true
+                },
+                "commonsNew": {
+                    "company": {
+                        "name": "Chief Digital Community",
+                        "uid": "CHE299063418",
+                        "uidOrganisationId": "299063418",
+                        "uidOrganisationIdCategorie": "CHE",
+                        "code13": "CH17060003501",
+                        "seat": "Risch",
+                        "legalForm": "0109",
+                        "noAddress": false,
+                        "address": {
+                            "addressLine1": "c/o Hochschule Luzern - Informatik",
+                            "street": "Suurstoffi",
+                            "houseNumber": "41B",
+                            "swissZipCode": "6343",
+                            "town": "Rotkreuz"
+                        }
+                    },
+                    "purpose": "Unterstützung von Schweizer KMU bei der professionellen Umsetzung der digitalen Transformation; vollständige Zweckumschreibung gemäss Statuten",
+                    "revision": {
+                        "optingOut": false
+                    }
+                }
+            },
+            "commented": false
+        }
+    ],
+    "total": 5,
+    "pageRequest": {
+        "sortOrders": [],
+        "page": 0,
+        "size": 100
+    }
+}

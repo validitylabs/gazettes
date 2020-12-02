@@ -1,0 +1,31 @@
+@keyword = blockchain
+@tenant = shab
+@publicationStates = PUBLISHED
+
+# @params = title=*labs*
+# @params = publicationNumbers=HR02-1004685040&publicationNumbers=HR02-1004684712
+# @params = publicationDate.start=2020-01-01&publicationDate.end=2020-01-01
+# @params = rubrics=AB&rubrics=AW&rubrics=AW&rubrics=AZ&rubrics=BB&rubrics=BH&rubrics=EK&rubrics=ES&rubrics=FM&rubrics=HR&rubrics=KK&rubrics=LS&rubrics=NA&rubrics=SB&rubrics=SR&rubrics=UP&rubrics=UV
+# @params = subRubrics=HR02&subRubrics=HR03
+# @params = cantons=AG&cantons=AI&cantons=JU&cantons=LU&cantons=NE&cantons=ZG&cantons=ZH
+# @params = registrationOfficeIds=1f2ec845-8126-11e8-8b2b-0050569db5fb&registrationOfficeIds=e15a629a-a08d-11e8-aa11-0050569d3c43
+# @params = registrationOfficeZipCodes=6300,6317
+# @params = uids=CHE-329.081.073&uids=CHE-313.147.269
+# @params = pageRequest.sortOrders=column:UPDATE_DATE|direction:DESC
+# @params = pageRequest.page=1
+# @params = pageRequest.size=5
+# @FIXME: @params = tenantOrCantons=true&cantons=ZH&cantons=ZG
+# @FIXME: @params = originatorNames=
+@params = pageRequest.page=0&pageRequest.size=5
+
+###
+# search
+
+GET https://amtsblattportal.ch/api/v1/publications?tenant={{tenant}}&keyword={{keyword}}&publicationStates={{publicationStates}}&{{params}}
+
+###
+# detail
+
+@id = a72a0985-d46c-45e8-bded-8464754f7f79
+
+GET https://amtsblattportal.ch/api/v1/publications/{{id}}
